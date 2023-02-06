@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="library.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="title-container">
+                <h1 class="title">library</h1>
+                <img src="img/cogleaf-white.png" class="logo">
+            </div>
+            <button type="button" class="login">Log In</button>
+        </div>
+        <div class="book-container">
+            <div class="add-book card" id="add">
+                <img src="svg/book-plus-outline.svg">
+                <h2>Add Book</h2>
+            </div>
+        </div>
+        <div class="footer">
+            <h2>2023 allanwandall</h2>
+            <img src="img/cogleaf-white.png" class="footer-logo">
+        </div>
+        <div class="form-container">
+            <form action="">
+                <div>
+                    <label for="name">Book Name:</label>
+                    <input type="text" id="book-name" name="name">
+                </div>
+                <div>
+                    <label for="author">Book Author:</label>
+                    <input type="text" id="book-author" name="author">
+                </div>
+                <div class="read-container">
+                    <label for="read">Have you read the book?</label>
+                    <input type="checkbox" id="book-read" name="read">
+                </div>
+                <button id="form-button" type="button">Add Book</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
